@@ -1,0 +1,49 @@
+body {
+	color: #2c2c2c;
+	font: 100 16px/20px "Open Sans", "arial", sans-serif;
+	background: url("https://zocalogroup.s3.amazonaws.com/bg_ow.jpg") repeat scroll 0 0 transparent;
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #2c2c2c;
+	font-family: "Arvo", Georgia, serif;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: 100;
+}
+
+header {
+	float: left;
+}
+
+	header img {
+		margin: 0.75em;
+	}
+
+
+article {
+	clear: both;
+}
+
+	article img {
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	dl {
+		float: left;
+	}
+		dt {
+			clear: both;
+			font: 700 1em/1.25em "Arvo", Georgia, serif; 
+		}
+		
+			dd {
+				margin: 0.25em 0 0.5em 0;
+				clear: none;
+				float: left;
+			}
