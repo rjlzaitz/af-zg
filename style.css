@@ -32,6 +32,12 @@ article {
 	article img {
 		float: left;
 		margin: 0 2em 2em 0;
+		width: 260px;
+		height: 260px;
+		background-color: #f2f2f2;
+		box-shadow: 0px 0px 1px 1px #7f7f7f;
+		padding: 10px;
+		
 	}
 	
 	dl {
@@ -47,3 +53,7 @@ article {
 				clear: none;
 				float: left;
 			}
+			
+	p {
+		clear: both;
+	}
