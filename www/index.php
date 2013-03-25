@@ -1,35 +1,27 @@
 
 <?php
 include('./con.php');
-echo "ID: ". $_GET["id"]; 
+$pID = $_GET["id"];
 
-// is form data present?
-if (!empty($_POST)) {
-	// process form data
-			
-	// build query
-	$title = mysql_real_escape_string($_POST['title']);
-	$description = mysql_real_escape_string($_POST['description']);
-	
-	$query = 'INSERT INTO albums SET ' . 
-				"title = '$title', " .
-				"description = '$description' ";
-	
-	// send query to server
-	$result = @mysql_query($query);
-	
-	// check query result
-	if (!$result) {
-		// query error - display debug or friendly message
-		echo '<p><strong>Query error</strong> - no soup for you! *snap*</p>';
-	} else {
-		// success!
-		echo '<p>The record has been saved.</p>';
-	}		
-	
-	// process results if any
-	
-} else {
-	echo "oops!";
+echo "ID: ". $pID; 
+
+// build query
+$id = mysql_real_escape_string($_GET['id']);
+
+$sql = "SELECT `first_n`, `last_n`, `image`, `status`, `level` FROM `jokes` WHERE `" . $pID . "` = 1";
+
+$profileSet = @mysql_query($sql);
+
+if (!$profileSet) {
+	echo "<p><strong>Query error:</strong><br /> $query</p>"; // query error
+	break; // terminate
 }
-?>
+if (mysql_num_rows($profileSet) < 1) {
+	echo '<p>No photos available';
+	break; // terminate
+}
+
+// loop through
+while($profile = mysql_fetch_array($profileSet, MYSQL_BOTH)) {
+	echo $profile['f_name'] . " " . $profile['l_name'];
+} // while photos
