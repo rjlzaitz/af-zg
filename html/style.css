@@ -191,3 +191,12 @@ aside {
 		padding: 2% 3% 0 3%;
 	}
 	
+#april-fools {
+	text-align: center;
+}
+
+#april-fools img {
+	max-width: 100%;
+	margin: 0 3% 3% 3%;
+}
+	
