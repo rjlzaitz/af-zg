@@ -52,7 +52,7 @@ $profile = mysql_fetch_array($profileSet, MYSQL_ASSOC);
 					<dl>
 						<dt>Name:</dt>
 							<dd><?php echo $profile['first_n'] . " " . $profile['last_n']; ?></dd>
-						<dt>Employee Status:</dt>
+						<dt>Status:</dt>
 							<dd><?php echo $profile['status']; ?></dd>
 						<dt>Office Location:</dt>
 							<dd>Chicago, 234b</dd>
