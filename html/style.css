@@ -98,9 +98,20 @@ h2 {
 	font: 100 1.25em/1.5em "Open Sans", Arial, sans-serif;
 }
 
+img {
+	transition: width 0.5s;
+	-moz-transition: width 0.5s; /* Firefox 4 */
+	-webkit-transition: width 0.5s; /* Safari and Chrome */
+	-o-transition: width 0.5s; /* Opera */
+}
+
 p {
 	line-height: 1.4em;
 	padding: 2% 3% 0 3%;
+}
+
+strong {
+	font-weight: 700;
 }
 
 #content {
@@ -122,14 +133,14 @@ p {
 			box-shadow: 0px 0px 1px 1px #7f7f7f;
 			float: left;
 			display: inline-block;
-			margin: 0.75% 3% 3% 3%;
-			max-width: 11em;
+			margin: 1em;
+			width: 14.5em;
 			padding: 0.5%; 
 		}
 		
 		dl {
 			float: left;
-			margin: 0 0 0 3%;
+			margin: 1em 0 0 0.5em;
 		}
 			dt {
 				font: 700 1em/1.25em "Arvo", Georgia, serif; 
@@ -141,7 +152,7 @@ p {
 				
 		article > p {
 			clear: left; 
-			padding: 0 3%;
+			padding: 0 1em;
 		}
 		
 		
@@ -168,8 +179,12 @@ p {
 		    text-decoration:none;
 		    
 		    text-shadow:0px 1px 0px #edbaa5;
-		    margin: 3% 0 3% 3%;
+		    margin: 1em;
 		    
+		    transition: background 0.5s;
+			-moz-transition: background 0.5s; /* Firefox 4 */
+			-webkit-transition: background 0.5s; /* Safari and Chrome */
+			-o-transition: background 0.5s; /* Opera */
 		}
 		.button:hover {
 		    
@@ -179,29 +194,39 @@ p {
 		    position:relative;
 		    top:1px;
 		}
+		
+		#content p {
+			font-size: 1.2em;
+		}
 
 aside {
 	float: right;
 	width: 40%;	
+	transition: left 0.5s;
+	-moz-transition: left 0.5s; /* Firefox 4 */
+	-webkit-transition: left 0.5s; /* Safari and Chrome */
+	-o-transition: left 0.5s; /* Opera */
 }
 
 	aside h1 {
-		padding: 3% 0 0 3%;
+		padding: 0.6em 0 0 0.6em;
 	}
+	
 	aside p {
-		padding: 2% 3% 0 3%;
+		padding: 1em;
+		font-size: .9em;
 	}
 	
 
 #capes-container {
 	width: 65em;
-	margin: 0 auto;
+	margin: 0 auto 2em auto;
 }
 	
 	.capes {
 		box-shadow: 0px 0px 1px 1px #7f7f7f; 
 		float: left;
-		margin: 2% 0 0 2%;
+		margin: 2% 0 2% 1.75%;
 		max-width: 100%;
 	}
 	
@@ -230,9 +255,9 @@ aside {
 	article > img {
 		float: left;
 		display: inline-block;
-		margin: 0.75% 3% 3% 3%;
-		min-width: 11em;
-		padding: 0.5%; 
+		margin: 1em;
+		max-width: 14.5em;
+		padding: 0.5%;
 	}
 	
 	aside {
@@ -249,7 +274,7 @@ aside {
 	
 		.capes {
 			max-width: 20%;	
-			margin: 3% 0 0 3%;
+			margin: 3% 0 0 3.75%;
 		}
 	
 } /* max-width: 960px */
@@ -283,7 +308,7 @@ aside {
 	}
 	
 	article > img {
-		min-width: 11em;
+		width: 11em;
 	}
 }
 
