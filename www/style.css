@@ -57,6 +57,14 @@ body {
 	background: url("https://zocalogroup.s3.amazonaws.com/bg_ow.jpg") repeat scroll 0 0 transparent;
 	text-shadow: 1px 1px 1px #FFFFFF;
 }
+a {
+	text-decoration: none;
+	color: #08c;
+}
+a:hover {
+	text-decoration: underline;
+	color: #005580;
+}
 
 header {
 	background: url("https://zocalogroup.s3.amazonaws.com/bgNav.png") repeat scroll 0 0 transparent;
@@ -187,7 +195,8 @@ strong {
 			-o-transition: background 0.5s; /* Opera */
 		}
 		.button:hover {
-		    
+		    color:#2e2e2e;
+		    text-decoration: none;
 		    background-color:#e86800;
 		}
 		.button:active {
