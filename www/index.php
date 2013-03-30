@@ -8,7 +8,7 @@
 		<dl>
 			<dt>Name:</dt>
 				<dd><?php echo $full_n; ?></dd>
-			<dt>Employee Status:</dt>
+			<dt>Status:</dt>
 				<dd><?php echo $status; ?></dd>
 			<dt>Level:</dt>
 				<dd><?php echo $level; ?></dd>
