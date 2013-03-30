@@ -2,7 +2,7 @@
 <html lang="en-US">
 	<head>
 		<meta charset="utf-8">
-		<title>Zocalo Group Domain Holding Service</title>
+		<title>Z&#243;calo Group Domain Holding Service</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<script src="./js/modernizr.custom.44981.js"></script>

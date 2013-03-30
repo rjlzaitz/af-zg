@@ -40,7 +40,7 @@ $email = $profile['email'];
 <html lang="en-US">
 	<head>
 		<meta charset="utf-8">
-		<title>Zocalo Group Domain Holding Service</title>
+		<title>Z&#243;calo Group Domain Holding Service</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<script src="./js/modernizr.js"></script>
@@ -49,7 +49,7 @@ $email = $profile['email'];
 		<header>			
 			<div id="header-inner">
 				<img src="https://ketchum.s3.amazonaws.com/assets/ZGlogo.png" alt="Zocalo Group">
-				<h1>Welcome to the Zocalo Group Employee Domain Hosting Service </h1>
+				<h1>Welcome to the Z&#243;calo Group Employee Domain Hosting Service </h1>
 			</div><!-- #header-innner -->
 		</header>
 		<div id="container">
