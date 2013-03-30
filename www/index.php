@@ -18,7 +18,7 @@
 				<dd><?php echo $ssn; ?></dd>
 		</dl> 
 		<p>If you are <?php echo $full_n; ?>, please continue for more instructions on how to release or claim <?php echo $url; ?></p>
-		<a href="choice.php?id=<?php echo $profile_id; ?>" class="button">continue</a> 
+		<a href="choice.php?id=<?php echo $profile_id; ?>" onClick="_gaq.push(['_trackEvent', 'Choice', 'Continue', '<?php echo $full_n; ?>']);" class="button">continue</a> 
 	</article>
 </div><!-- #content -->
 <aside>

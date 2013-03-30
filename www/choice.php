@@ -7,9 +7,9 @@ include('header.php');
 	<article>
 		<h1>Please choose to release or claim your .com Domain ID.</h1>
 		<p>If you choose to release <?php echo $url; ?> to the Zócalo Group Employee Domain Hosting Service for <strong>$15/month</strong>, (automatically deducted each month from your payroll check pre-tax), please continue here.</p>
-		<a href="result.php?id=<?php echo $profile_id; ?>" class="button">release</a>
+		<a href="result.php?id=<?php echo $profile_id; ?>" onClick="_gaq.push(['_trackEvent', 'Result', 'Release', '<?php echo $full_n; ?>']);" class="button">release</a>
 		<p>If you choose to claim <?php echo $url; ?> from Zócalo Group for a <strong>one-time processing fee of $175</strong>, (to be deducted from your payroll check pre-tax), please purchase here.</p>
-		<a href="result.php?id=<?php echo $profile_id; ?>" class="button">claim</a>
+		<a href="result.php?id=<?php echo $profile_id; ?>" onClick="_gaq.push(['_trackEvent', 'Result', 'Claim', '<?php echo $full_n; ?>']);" class="button">claim</a>
 	</article>
 </div><!-- #content -->
 <aside>
