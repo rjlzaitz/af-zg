@@ -40,8 +40,9 @@ $email = $profile['email'];
 <html lang="en-US">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Z&#243;calo Group Domain Holding Service</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
 		<link href='http://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<script src="./js/modernizr.js"></script>
 	</head>

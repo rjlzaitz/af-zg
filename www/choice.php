@@ -5,11 +5,13 @@ include('header.php');
 
 <div id="content">
 	<article>
-		<h1>Please choose to release or claim <?php echo $url; ?>.</h1>
+
+		<h1>Please choose to release or claim your .com Domain ID.</h1>
 		<p>If you choose to release <?php echo $url; ?> to the Z&#243;calo Group Employee Domain Hosting Service for <strong>$15/month</strong>, (automatically deducted each month from your payroll check pre-tax), please continue here.</p>
-		<a href="result.php?id=<?php echo $profile_id; ?>" class="button">Release &amp; Agree to host for $15/month</a>
+		<a href="result.php?id=<?php echo $profile_id; ?>" onClick="_gaq.push(['_trackEvent', 'Result', 'Release', '<?php echo $full_n; ?>']);" class="button">Release &amp; Agree to host for $15/month</a>
 		<p>If you choose to claim <?php echo $url; ?> from Z&#243;calo Group for a <strong>one-time processing fee of $175</strong>, (to be deducted from your payroll check pre-tax), please purchase here.</p>
-		<a href="result.php?id=<?php echo $profile_id; ?>" class="button">Claim &amp; Purchase your domain for $175</a>
+		<a href="result.php?id=<?php echo $profile_id; ?>" onClick="_gaq.push(['_trackEvent', 'Result', 'Claim', '<?php echo $full_n; ?>']);" class="button">Claim &amp; Purchase your domain for $175</a>
+
 	</article>
 </div><!-- #content -->
 <aside>
