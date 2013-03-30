@@ -7,9 +7,7 @@ $pID = $_GET["id"];
 // build query
 $id = mysql_real_escape_string($_GET['id']);
 
-$sql = "SELECT `url`, `first_n`, `last_n`, `status`, `level`, `ssn`, `location`, `image`, `email` FROM ". $dbName ."." . $dbTable . "WHERE `id` = " . $pID;
-
-//echo $sql;
+$sql = "SELECT `id`, `url`, `first_n`, `last_n`, `status`, `level`, `ssn`, `location`, `image`, `email` FROM ". $dbName ."." . $dbTable . " WHERE `id` = " . $pID;
 
 $profileSet = @mysql_query($sql);
 
@@ -26,7 +24,8 @@ if (mysql_num_rows($profileSet) < 0) {
 $profile = mysql_fetch_array($profileSet, MYSQL_ASSOC);
 
 // Custom Variables from DB
-$url = $profile['url'];
+$profile_id = $profile['id'];
+$url = '<a href="http://' . $profile['url'] . '/" target="_blank">' . $profile['url'] . '</a>' ;
 $image = 'https://ketchum.s3.amazonaws.com/promo/' . $profile['image'];
 $first_n = $profile['first_n'];
 $last_n = $profile['last_n'];
@@ -36,9 +35,7 @@ $level = $profile['level'];
 $ssn = $profile['ssn'];
 $location = $profile['location'];
 $email = $profile['email'];
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>

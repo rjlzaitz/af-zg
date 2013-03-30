@@ -1,11 +1,10 @@
-
 <?php
 	// Header 
 	include('header.php');
 ?>
 <div id="content">
 	<article>
-		<?php echo "<img src='" . $image . "' alt='" . $full_n . "/>"; ?>
+		<?php echo '<img src="' . $image . '" alt="' . $full_n . '" />'; ?>
 		<dl>
 			<dt>Name:</dt>
 				<dd><?php echo $full_n; ?></dd>
@@ -19,7 +18,7 @@
 				<dd><?php echo $ssn; ?></dd>
 		</dl> 
 		<p>If you are <?php echo $full_n; ?>, please continue for more instructions on how to release or claim <?php echo $url; ?></p>
-		<a href="choice.php" class="button">continue</a> 
+		<a href="choice.php?id=<?php echo $profile_id; ?>" class="button">continue</a> 
 	</article>
 </div><!-- #content -->
 <aside>
