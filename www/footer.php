@@ -1,8 +1,8 @@
 			<div id="capes-container">
-				<img src="https://ketchum.s3.amazonaws.com/assets/cape-1.jpg" alt="cape-1" class="capes first">
-				<img src="https://ketchum.s3.amazonaws.com/assets/cape-2.jpg" alt="cape-4" class="capes">
-				<img src="https://ketchum.s3.amazonaws.com/assets/cape-3.jpg" alt="cape-3" class="capes third">
-				<img src="https://ketchum.s3.amazonaws.com/assets/cape-4.jpg" alt="cape-2" class="capes">
+				<a href="http://www.zocalogroup.com"><img src="https://ketchum.s3.amazonaws.com/assets/cape-1.jpg" alt="cape-1" class="capes first"></a>
+				<a href="http://www.zocalogroup.com"><img src="https://ketchum.s3.amazonaws.com/assets/cape-2.jpg" alt="cape-4" class="capes"></a>
+				<a href="http://www.zocalogroup.com"><img src="https://ketchum.s3.amazonaws.com/assets/cape-3.jpg" alt="cape-3" class="capes third"></a>
+				<a href="http://www.zocalogroup.com"><img src="https://ketchum.s3.amazonaws.com/assets/cape-4.jpg" alt="cape-2" class="capes"></a>
 			</div>
 		</div><!-- #container -->
 		<script type="text/javascript">
