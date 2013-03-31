@@ -17,12 +17,13 @@
 		<header>			
 			<div id="header-inner">
 				<img src="https://ketchum.s3.amazonaws.com/assets/ZGlogo.png" alt="Zocalo Group">
-				<h1>Happy April Fools' Day From the Creative &amp; Digital Team!</h1>
+				<h1>Welcome to the Z&#243;calo Group Employee Domain Hosting Service </h1>
 			</div><!-- #header-innner -->
 		</header>		
 		<div id="container">			
 			<div id="april-fools">						
-				<img src="imgs/april-fool.jpg" alt="april-fool">
+				<img src="imgs/willy-wonka-af.jpg" alt="willy-wonka-af" width="311" height="311">
+				<h2>Happy April Fool's Day from the Creative &amp; Digital Team!</h2>
 			</div><!-- #april-fools -->
 		</div><!-- #container -->
 	</body>
