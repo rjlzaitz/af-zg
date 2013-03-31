@@ -15,7 +15,6 @@ include('header.php');
 	</article>
 </div><!-- #content -->
 <aside>
-<aside>
 	<h1>What is this?</h1>	
 	<p>Many of Z&#243;calo Group’s clients continue to experience licensee obstructions when seeking to register U.S.-based website domains in English, especially international client partners in China, Russia and Indonesia. </p>	
 	<p>It has come to the attention of Z&#243;calo Group [<strong>the Organization</strong>] that a majority of employees have to date <strong>not registered their names as website domains</strong>. In order to stay competitive within the global digital space, <strong>the Organization</strong> has purchased these unclaimed domain names as a service to its employees, including <strong><?php echo $url; ?></strong>, with the intention of commoditizing them on the open market and driving leads to the <strong>Organization’s</strong> web properties.</p>	
