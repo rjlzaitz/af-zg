@@ -58,6 +58,15 @@ body {
 	text-shadow: 1px 1px 1px #FFFFFF;
 }
 
+a {
+	text-decoration: none;
+	color: #08c;
+}
+a:hover {
+	text-decoration: underline;
+	color: #005580;
+}
+
 header {
 	background: url("https://zocalogroup.s3.amazonaws.com/bgNav.png") repeat scroll 0 0 transparent;
 	border-bottom: #FF9933 solid 8px;
@@ -87,6 +96,7 @@ header {
 	margin: 0 auto;
 	max-width: 65em;
 	padding: 1.5em 0 0 0;
+	overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -187,7 +197,8 @@ strong {
 			-o-transition: background 0.5s; /* Opera */
 		}
 		.button:hover {
-		    
+		    color:#2e2e2e;
+		    text-decoration: none;
 		    background-color:#e86800;
 		}
 		.button:active {
