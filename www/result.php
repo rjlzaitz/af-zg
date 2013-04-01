@@ -22,7 +22,7 @@
 		</header>		
 		<div id="container">			
 			<div id="april-fools">						
-				<img src="imgs/willy-wonka-af.jpg" alt="willy-wonka-af" width="311" height="311">
+				<img src="https://ketchum.s3.amazonaws.com/assets/willy-wonka-af.jpg" alt="" />
 				<h2>Happy April Fool's Day from the Creative &amp; Digital Team!</h2>
 			</div><!-- #april-fools -->
 		</div><!-- #container -->
